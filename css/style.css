@@ -1,0 +1,306 @@
+html {
+  font-family: 'Cuprum', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  /*второй шрифт*/
+  font-weight: normal;
+}
+
+.header {
+  background-color: #f4f7f9;
+}
+
+/* стили верхнего меню */
+
+.top_item {
+  background-color: #293449;
+}
+
+.top_item_text {
+  font-size: 17 px;
+  line-height: 18px;
+  color: white;
+}
+
+.top_item:hover {
+  background-color: #212a3a;
+}
+
+.top_items:active {
+  background-color: #161d29;
+}
+
+.logo {
+  display: block;
+  width: 220px;
+  height: 47px;
+  background-color: #ee3643;
+  color: fff;
+  font-size: 19px;
+  text-align: center;
+}
+
+.logo:hover {
+  background-color: #ca2c37;
+}
+
+.order_btn {
+  display: block;
+  width: 150px;
+  height: 42px;
+  background-color: #63a63e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+/* блок контактов */
+
+.description {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  color: #ee3643;
+  line-height: 23px;
+}
+
+.top_tel {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  border: 3px solid #fff;
+}
+
+.top_adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+/* блок авторизации */
+
+.enter,
+.sign-up {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000;
+  text-decoration: none;
+}
+
+.enter:hover,
+.sign-up:hover {
+  color: #ee3643;
+}
+
+.enter:active,
+.sign-up:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* основное меню */
+
+.top_nav {
+  background-color: #32425c;
+}
+
+.nav_item {
+  color: #fff;
+  font-size: 17px;
+  line-height: 17px;
+  list-style: none;
+}
+
+.nav_item:hover {
+  background-color: #293449;
+}
+
+.nav_item:active {
+  background-color: #1d2739;
+}
+
+.nav_item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* блок о компании */
+
+.about_title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+}
+
+.about_title p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.about_logistic {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.red_btn {
+  background-color: #ee3643;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+/* Футер */
+
+.footer {
+  background-color: #32425c;
+}
+
+/* Нижнее меню */
+.footer_menu_top,
+.footer_menu_bottom {
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.footer_menu_top a,
+.footer_menu_bottom a {
+  text-decoration: none;
+  color: #f1f5f7;
+}
+
+.adress_down,
+.tel_down {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.tel_down {
+  text-decoration: none;
+}
+
+.footer_menu_bottom a {
+  color: #ffd180;
+}
+
+/* Права и соц сети */
+
+.rights {
+  background-color: #293449;
+}
+
+.rights_text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+
+/* иконки соц сетей */
+
+.socials {
+  list-style: none;
+}
+
+.feedback,
+.developer {
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.feedback a,
+.developer a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffd180;
+  text-decoration: none;
+}
+
+
+/* СТРАНИЦА ТОВАРОВ */
+
+.cart {
+  background-color: #ee3643;
+}
+
+
+.my_orders,
+.my_cabinet {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+}
+
+.bread_crumbs {
+  list-style: none;
+}
+
+.bread_crumbs a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.title_main {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+
+.product,
+.product_seria {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+}
+
+.product_name a {
+  text-decoration: none;
+}
+
+.product_list {
+  list-style: none;
+}
+
+/* ЦЕНЫ */
+
+.product_list del {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #999;
+}
+
+.new_price {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #ee3643;
+  text-decoration: none;
+}
+
+.buy_btn {
+  color: #fff;
+  background-color: #63a63e;
+  text-decoration: none;
+}
+
+.bookmark_btn {
+  color: #32425c;
+  border: 3px solid #63a63e;
+  text-decoration: none;
+}
