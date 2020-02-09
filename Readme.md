@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Андрей Деев](https://up.htmlacademy.ru/htmlcss/27/user/1248713).
-* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077).
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/id252055).
 
 ---
 
