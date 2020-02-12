@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Cuprum', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   /* font-family: 'PT Sans', sans-serif; */
   /*второй шрифт*/
   font-weight: normal;
@@ -17,82 +17,99 @@ html {
 
 /* Контейнер */
 .container {
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
 }
 
 
-/* стили верхнего меню */
-
-.top_container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.top_item {
+/* стили верхнего бара */
+.top_bar_wrap {
   background-color: #293449;
-  min-width: 150px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
+  
 }
 
 .top_bar {
-  background-color: #293449;
+  display: flex;
   height: 42px;
-}
+  text-align: center;
 
-.top_item:hover {
-  background-color: #212a3a;
 }
 
 .logo {
+  display: block;
   width: 220px;
-  height: 47px;
+  height: 42px;
   background-color: #ee3643;
   color: #fff;
   font-size: 19px;
   text-align: center;
-  padding: 13px 56px 15px 55px;
-  margin-right: 20px;
-  margin-left: 0;
+  margin-left: 10px;
 }
 
 .logo:hover {
   background-color: #ca2c37;
 }
 
-.top_item img {
-  width: 17px;
-  height: 17px;
-  padding-right: 5px;
-}
 
-.search_input {
-  width: 240px;
+.top_item_search {
+  width: 270px;
   height: 42px;
 }
 
-.order_btn {
-  background-color: #63a63e;
-  font-size: 17px;
-  line-height: 18px;
+
+.top_item_link {
+  width: 150px;
+  height: 42px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.order_btn a {
+
+.top_item:hover {
+  background-color: #212a3a;
+}
+
+.order_btn {
+  width: 150px;
+  font-size: 17px;
+  line-height: 18px;
   text-decoration: none;
   color: #fff;
-  ;
+  background-color: #63a63e;
+}
+
+.order_btn:hover {
+  background-color: #5fbb2d;
+}
+
+.order_btn:active {
+  background-color: #518534;
 }
 
 /* блок контактов */
 .header_main_wrap {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  margin-bottom: 47px;
   margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+
+.description {
+  display: block;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  color: #ee3643;
+  line-height: 23px;
+  width: 200px;
+  margin: 0;
 }
 
 .header_contacts {
@@ -101,13 +118,7 @@ html {
   align-items: center;
 }
 
-.description {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 16px;
-  color: #ee3643;
-  line-height: 23px;
-}
+
 
 .top_tel {
   display: flex;
@@ -119,7 +130,7 @@ html {
   line-height: 21px;
   color: #ee3643;
   border: 3px solid #fff;
-  margin: 13px 52px 11px 74px;
+  padding: 0;
 }
 
 .top_adress {
@@ -135,6 +146,7 @@ html {
 .header_login {
   display: flex;
   justify-content: flex-start;
+
 }
 
 
@@ -234,7 +246,7 @@ html {
 }
 
 .about_title p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 36px;
@@ -364,6 +376,13 @@ html {
   min-height: 40px;
 }
 
+.tel_down {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+  text-decoration: none;
+}
+
 .footer_menu_bottom a {
   color: #ffd180;
 }
@@ -414,19 +433,19 @@ html {
 
 /* Иконки соц сетей */
 .vk_link {
-  background-image: url(img/icon-vk.svg);
+  background-image: url(../img/icon-vk.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fb_link {
-  background-image: url(img/icon-fb.svg);
+  background-image: url(../img/icon-fb.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .inst_link {
-  background-image: url(img/);
+  background-image: url(../img/icon-insta.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -455,26 +474,59 @@ html {
   background-color: #ee3643;
 }
 
-.header_login_active {
-  width: 300px;
-}
-
-.my_desk {
-  min-width: 211px;
-}
-
+/* Блок информации клиента */
 
 .user {
   min-width: 300px;
   min-height: 45px;
   background-color: #fff;
+  font-size: 21px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  text-decoration: none;
 }
 
+.user_name {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 48px;
+  margin-right: 36px;
+  position: relative;
+}
 
+.user_name::before {
+  content: "";
+  width: 21px;
+  height: 17px;
+  margin: 0;
+  position: absolute;
+  background-image: url(../img/icon-user.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  top: 2px;
+  left: -34px;
+}
+
+.user_logout {
+  display: block;
+  text-align: center;
+}
+
+.user_links {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.user_link_orders {
+  margin-left: 19px;
+  margin-right: 30px;
+}
 
 
 .my_orders,
@@ -499,18 +551,18 @@ html {
   text-decoration: none;
 }
 
-.title_page {
-  min-height: 90px;
-  background-color: #f2f6f8;
-}
-
 
 .title_main {
   display: block;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
   text-transform: uppercase;
+  background-color: #f2f6f8;
 }
 
 
@@ -565,7 +617,7 @@ html {
 
 .product,
 .product_seria {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -580,7 +632,7 @@ html {
 /* ЦЕНЫ */
 
 .product_list del {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
@@ -588,7 +640,7 @@ html {
 }
 
 .new_price {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;

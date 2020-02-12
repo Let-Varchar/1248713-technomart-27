@@ -6,40 +6,39 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link
-    href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700&display=swap&subset=cyrillic"
+    href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,400i,700&display=swap&subset=cyrillic"
     rel="stylesheet">
   <title>HTML Academy: Техномарт</title>
 </head>
 
 <body>
   <header class="header">
-    <section class="top_bar">
-      <div class="top_container container">
-        <a hreg='index.html' class="logo"><img src="img/logo-technomart.svg" alt=""></a>
-        <div class="top_item">
-          <img src="img/icon-search.svg" alt="Поиск">
-          <span class="top_item_text">Поиск:</span>
+    <div class="top_bar_wrap">
+      <section class="top_bar container">
+        <a class="logo"><img src="img/logo-technomart.svg" alt="Логотип Техномарт"></a>
+        <div class="top_item top_item_search">
+          <form action="https://echo.htmlacademy.ru/">
+            <label for="serch_form"></label>
+            <input type="text" placeholder="Поиск:" id="serch_form">
+          </form>
         </div>
         <div class="top_item">
-          <img src="img/icon-bookmark.svg" alt="закаладки">
-          <span class="top_item_text">Закладки: 0</span>
+          <a href="" class="top_item_link">Закладки: 0</a>
         </div>
         <div class="top_item">
-          <img src="img/icon-cart.svg" alt="корзина">
-          <span class="top_item_text">Корзина: 0</span>
+          <a href="" class="top_item_link">Корзина: 0</a>
         </div>
-        <div class="top_item order_btn">
-          <a href="">Оформить заказ</a>
+        <div class="top_item">
+          <a href="" class="top_item_link order_btn">Оформить заказ</a>
         </div>
-      </div>
-    </section>
-
+      </section>
+    </div>
     <section class="header_main">
       <div class="container">
         <div class="header_main_wrap">
-          <div class="header_descript">
-            <p class="description">Интернет-магазин<br>
-              строительных материалов<br>
+          <div class="header_descriptipn">
+            <p class="description">Интернет-магазин
+              строительных материалов
               и инструментов для ремонта
             </p>
           </div>
@@ -57,7 +56,7 @@
 
     <nav class="top_nav">
       <ul class="nav">
-        <li class="nav_item"><a href="index.html" class="nav_link">Главная</a></li>
+        <li class="nav_item"><a href="" class="nav_link">Главная</a></li>
         <li class="nav_item"><a href="" class="nav_link">Компания</a></li>
         <li class="nav_item"><a href="catalog.html" class="nav_link">Каталог</a></li>
         <li class="nav_item"><a href="" class="nav_link">Новости</a></li>
@@ -74,8 +73,7 @@
   </main>
 
   <section class="about container">
-
-    <article class="about_company">
+    <div class="about_company">
       <h2 class="about_title">Компания "Техномарт"</h2>
       <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br>строительства не оставит
         равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -87,39 +85,23 @@
         <li>ЖелДорЭкспедиция</li>
       </ul>
       <a href="" class=" red_btn about_btn">Подробнее о компании</a>
-    </article>
+    </div>
 
-    <article class="about_contacts">
+    <div class="about_contacts">
       <h2 class="about_title">Контакты</h2>
       <p>Вы можете забрать товар сами,<br>
         заехав в наш офис:</p>
       <img src="img/map-img.png" alt="адрес Техномарт" class="about_map"><br>
       <a href="" class="red_btn write_us">Заблудились? Напишите нам!</a>
-    </article>
+    </div>
 
-    <article class="visually-hidden" hidden>
-      <form class="" action="" method="post">
-        <p>
-          <label for="popup-name">Ваше имя: </label>
-          <input type="text" name="popup-name" id='popup-name' placeholder="Имя Фамилия">
-        </p>
-        <p>
-          <label for="popup-email">Ваш e-mail: </label>
-          <input type="email" name="popup-email" id='popup-email' placeholder="email@example.com">
-        </p>
-        <p>
-          <label for="comment">Текст письма: </label>
-          <textarea name="comment" rows="8" cols="80" id='comment' placeholder="В свободнй форме"></textarea>
-        </p>
-        <button type="submit">Отправить</button>
-      </form>
-    </article>
+
   </section>
 
   <footer>
     <section class="footer container">
       <div class="footer_top">
-        <a href="index.html" class="logo_link"><img src="img/logo-technomart.svg" alt="Логотип Техномарт"></a>
+        <a href="" class="logo_link"><img src="img/logo-technomart.svg" alt="Логотип Техномарт"></a>
 
         <ul class="footer_menu_top">
           <li><a href="">Компания</a></li>
@@ -132,7 +114,7 @@
       <div class="footer_bottom">
 
         <p class="contacts_down">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-          +7 (812) 555-05-55</p>
+          <a href="tel:+78125550555" class="tel_down">+7 (812) 555-05-55</a></p>
 
         <ul class="footer_menu_bottom">
           <li><a href="">Материалы</a></li>
@@ -163,7 +145,7 @@
             </p>
           </div>
           <div class="developer">
-            <p class="developer">Разработано —<br><a href='https://htmlacademy.ru/intensive/htmlcss'>htmlacademy.ru</a>
+            <p class="developer">Разработано —<br><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
             </p>
           </div>
         </div>
@@ -171,6 +153,30 @@
     </section>
 
   </footer>
+
+  <!-- Модальное окно -->
+
+  <div class="visually-hidden" hidden>
+    <form class="" action="https://echo.htmlacademy.ru/" method="post">
+      <button class="close_btn"></button>
+      <p>
+        <label for="popup-name">Ваше имя: </label>
+        <input type="text" name="popup-name" id="popup-name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="popup-email">Ваш e-mail: </label>
+        <input type="email" name="popup-email" id="popup-email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="comment">Текст письма: </label>
+        <textarea name="comment" rows="8" cols="80" id="comment" placeholder="В свободнй форме"></textarea>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+
+    <!-- Конец модального окна -->
+
+  </div>
 </body>
 
 </html>
