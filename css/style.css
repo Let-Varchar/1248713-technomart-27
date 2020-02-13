@@ -25,7 +25,7 @@ html {
 /* стили верхнего бара */
 .top_bar_wrap {
   background-color: #293449;
-  
+    padding: 0 10px;
 }
 
 .top_bar {
@@ -41,9 +41,13 @@ html {
   height: 42px;
   background-color: #ee3643;
   color: #fff;
-  font-size: 19px;
   text-align: center;
   margin-left: 10px;
+  padding-top: 13px;
+}
+
+.logo img {
+  height: 19px;
 }
 
 .logo:hover {
@@ -53,19 +57,18 @@ html {
 
 .top_item_search {
   width: 270px;
-  height: 42px;
+  padding-top: 9px;
 }
 
 
 .top_item_link {
+  display: block;
   width: 150px;
   height: 42px;
   color: #fff;
   text-decoration: none;
   margin: 0;
-  padding: 0;
-  display: table-cell;
-  vertical-align: middle;
+  padding-top: 12px;
 }
 
 
@@ -283,20 +286,19 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  border-radius: 3px;;
 }
 
 .about_btn {
-  display: inline;
-  width: 220px;
-  height: 38px;
+  display: block;
   padding: 14px 40px 12px 41px;
+  width: 300px;
 }
 
 .write_us {
-  display: inline;
+  display: block;
   width: 300px;
-  height: 38px;
-  padding: 14px 40px 12px 41px;
+  padding: 14px 59px 12px 63px;
 }
 
 /* Футер */
