@@ -23,10 +23,10 @@
           </form>
         </div>
         <div class="top_item">
-          <a href="" class="top_item_link">Закладки: 0</a>
+          <a href="" class="top_item_link top_item__mark">Закладки: 0</a>
         </div>
         <div class="top_item">
-          <a href="" class="top_item_link">Корзина: 0</a>
+          <a href="" class="top_item_link top_item__cart">Корзина: 0</a>
         </div>
         <div class="top_item">
           <a href="" class="top_item_link order_btn">Оформить заказ</a>
@@ -34,23 +34,19 @@
       </section>
     </div>
     <section class="header_main">
-      <div class="container">
-        <div class="header_main_wrap">
-          <div class="header_descriptipn">
-            <p class="description">Интернет-магазин
-              строительных материалов
-              и инструментов для ремонта
-            </p>
-          </div>
-          <div class="header_contacts">
-            <a href="tel:+7 (812) 555-05-55" class="top_tel">+7 (812) 555-05-55</a>
-            <span class="top_adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-          </div>
-          <div class="header_login">
-            <a href="" class="enter">Войти</a>
-            <a href="" class="sign-up">Регистрация</a>
-          </div>
-        </div>
+      <div class="header_description">
+        <p class="description">Интернет-магазин
+          строительных материалов
+          и инструментов для ремонта
+        </p>
+      </div>
+      <div class="header_contacts">
+        <a href="tel:+7 (812) 555-05-55" class="top_tel">+7 (812) 555-05-55</a>
+        <span class="top_adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+      </div>
+      <div class="header_login">
+        <a href="" class="enter">Войти</a>
+        <a href="" class="sign-up">Регистрация</a>
       </div>
     </section>
 
@@ -156,23 +152,27 @@
 
   <!-- Модальное окно -->
 
-  <div class="visually-hidden" hidden>
-    <form class="" action="https://echo.htmlacademy.ru/" method="post">
-      <button class="close_btn"></button>
-      <p>
-        <label for="popup-name">Ваше имя: </label>
-        <input type="text" name="popup-name" id="popup-name" placeholder="Имя Фамилия">
-      </p>
-      <p>
-        <label for="popup-email">Ваш e-mail: </label>
-        <input type="email" name="popup-email" id="popup-email" placeholder="email@example.com">
-      </p>
-      <p>
-        <label for="comment">Текст письма: </label>
-        <textarea name="comment" rows="8" cols="80" id="comment" placeholder="В свободнй форме"></textarea>
-      </p>
+  <div class="window_writeus">
+    <div class="window_writeus_inputs">
+      <form class="" action="https://echo.htmlacademy.ru/" method="post">
+        <div class="window_writeus_input input_name">
+          <label for="popup-name">Ваше имя: </label>
+          <input type="text" name="popup-name" id="popup-name" placeholder="Имя Фамилия">
+        </div>
+        <div class="window_writeus_input input_email">
+          <label for="popup-email">Ваш e-mail: </label>
+          <input type="email" name="popup-email" id="popup-email" placeholder="email@example.com">
+        </div>
+        <div class="window_writeus_input input_text">
+          <label for="comment">Текст письма: </label>
+          <textarea name="comment" rows="8" cols="80" id="comment" placeholder="В свободнй форме"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="window_writeus_submit">
       <button type="submit">Отправить</button>
-    </form>
+    </div>
+
 
     <!-- Конец модального окна -->
 
