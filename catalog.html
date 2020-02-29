@@ -30,7 +30,7 @@
           <a href="" class="top_item_link top_item__mark">Закладки: 0</a>
         </div>
         <div class="top_item">
-          <a href="" class="top_item_link top_item__cart">Корзина: 0</a>
+          <a href="" class="top_item_link top_item__cart top_item__cart-inside">Корзина: 10</a>
         </div>
         <div class="top_item">
           <a href="" class="top_item_link order_btn">Оформить заказ</a>
@@ -56,8 +56,8 @@
         </div>
         <div>
           <ul class="user_links">
-            <li><a href="" class="user_link user_link_orders">Мои заказы</a></li>
-            <li><a href="" class="user_link user_link_my-account">Личный кабинет</a></li>
+            <li><a href="#" class="user_link user_link_orders">Мои заказы</a></li>
+            <li><a href="#" class="user_link user_link_my-account">Личный кабинет</a></li>
           </ul>
         </div>
       </div>
@@ -83,40 +83,77 @@
       <li><a href="">Инструмент</a></li>
       <li>Перфораторы</li>
     </ul>
+
     <h1 class="title_main">Перфораторы</h1>
-    <div class="catalog">
-      <section class="filters">
-        <form action="">
-          <fieldset class="filter_developers">
-            <legend>Производители:</legend>
-            <label for="bosch">
-              <input type="checkbox" id="bosch" checked> BOSCH
+
+    <div class="main_wrap">
+    <div class="main-left">
+      <form action="" class="form_filter">
+        <span class="filter_title">Фильтр:</span>
+        <section class="price_range">
+          <h3 class="price_range_title">Цена:</h3>
+          <div class="range_control">
+           <div class="range_line">
+             <div class="range_slider"></div>
+           </div>
+          </div>
+          <div class="filter_price">
+            <label class="min_price">
+              <input type="text" name="price" value="0" class="input_price">
             </label>
-            <label for="interskol">
-              <input type="checkbox" id="interskol"> Интерскол
+            <span>-</span>
+            <label class="max_price">
+              <input type="text" name="price" value="30000" class="input_price">
             </label>
-            <label for="makita">
-              <input type="checkbox" id="makita" checked> Makita
-            </label>
-            <label for="dewalt">
-              <input type="checkbox" id="dewalt"> Dewalt
-            </label>
-            <label for="hitachi">
-              <input type="checkbox" id="hitachi"> Hitachi
-            </label>
-          </fieldset>
-          <fieldset class="filter_power">
-            <legend>Питание:</legend>
-            <input type="radio" id="accumulator" value="accumulator" name="power" checked>
-            <label for="accumulator">Аккумуляторные</label>
-            <input type="radio" id="electonetwork" value="electonetwork" name="power">
-            <label for="electonetwork">Сетевые</label>
-          </fieldset>
-          <button type="submit">Показать</button>
-        </form>
-      </section>
+          </div>
+        </section>
+        <section class="filter_developers">
+        <h3 class="filter_developers_title">Производители:</h3>
+              <input type="checkbox" id="bosch" class="visually-hidden" checked>
+              <label for="bosch">BOSCH</label>
+
+              <input type="checkbox" id="interskol" class="visually-hidden">
+              <label for="interskol">Интерскол</label>
+
+              <input type="checkbox" id="makita" class="visually-hidden" checked>
+              <label for="makita">Makita</label>
+
+
+              <input type="checkbox" id="dewalt" class="visually-hidden">
+              <label for="dewalt">Dewalt</label>
+
+              <input type="checkbox" id="hitachi" class="visually-hidden">
+              <label for="hitachi">Hitachi</label>
+        </section>
+
+        <section class="filter_power">
+          <h3 class="filter_power_title">Питание:</h3>
+          <input type="radio" id="accumulator" value="accumulator" name="power" class="visually-hidden" checked>
+          <label for="accumulator">Аккумуляторные</label>
+          <input type="radio" id="electonetwork" value="electonetwork" name="power" class="visually-hidden">
+          <label for="electonetwork">Сетевые</label>
+        </section>
+        <button class="filter_on_btn">Показать</button>
+      </form>
+        </div>
+
+
+    <div class="main-right">
+
+      <div class="sorting">
+        <span>Сортировка:</span>
+        <div class="sorting_type">
+         <a href="" class="sorting_type_link sorting_type_link-acive">По цене</a>
+         <a href="" class="sorting_type_link">По типу</a>
+         <a href="" class="sorting_type_link">По функциональности</a>
+        </div>
+        <div class="sorting_up_down">
+          <a href="#" class="sorting_up sorting_up--active"></a>
+          <a href="#" class="sorting_down"></a>
+        </div>
+      </div>
       <div class="product_list">
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -127,7 +164,7 @@
           <div class="product_item_discount">22500 Р.</div>
           <div class="product_item_price">15500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -138,7 +175,7 @@
           <div class="product_item_discount">30500 Р.</div>
           <div class="product_item_price">25500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag">Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -149,7 +186,7 @@
           <div class="product_item_discount"></div>
           <div class="product_item_price">12500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -160,7 +197,7 @@
           <div class="product_item_discount">22500 Р.</div>
           <div class="product_item_price">15500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag">Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -171,7 +208,7 @@
           <div class="product_item_discount">30500 Р.</div>
           <div class="product_item_price">25500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -182,7 +219,7 @@
           <div class="product_item_discount"></div>
           <div class="product_item_price">12500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag">Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -193,7 +230,7 @@
           <div class="product_item_discount">22500 Р.</div>
           <div class="product_item_price">15500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -204,7 +241,7 @@
           <div class="product_item_discount">30500 Р.</div>
           <div class="product_item_price">25500 Р.</div>
         </div>
-        <div class="product_item">
+        <div class="product_item product_item__catalog">
           <div class="flag new_flag" hidden>Новинка</div>
           <div class="product_list_btn">
             <a href="" class="product_item_buy">Купить</a>
@@ -216,10 +253,29 @@
           <div class="product_item_price">12500 Р.</div>
         </div>
 
+          <ul class="pagination_list">
+            <li class="pagination_item pagination_item_current">1</li>
+            <li class="pagination_item"><a href="#">2</a></li>
+            <li class="pagination_item"><a href="#">3</a></li>
+            <li class="pagination_item pagination_item_next"><a href="#">Следующая</a></li>
+          </ul>
 
       </div>
     </div>
+  </div>
+    </div>
+
   </main>
+<div class="about_perforators">
+  <div class="container">
+  <h3>Пара слов о перфораторах</h3>
+  <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
+    Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
+    В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+</div>
+</div>
+
+
   <footer>
     <section class="footer container">
       <div class="footer_top">
@@ -248,8 +304,7 @@
       </div>
     </section>
     <section class="rights">
-      <div class="container">
-        <div class="rights_wrap">
+        <div class="rights_wrap container">
           <div class="rights_text">
             <p>© 2010–2019 Компания «Техномарт»<br>
               Все права защищены</p>
@@ -271,7 +326,6 @@
             </p>
           </div>
         </div>
-      </div>
     </section>
 
   </footer>
