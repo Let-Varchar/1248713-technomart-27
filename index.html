@@ -42,7 +42,8 @@
 
 		<section class="header_main container">
 			<div class="header_description">
-				<p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+				<p class="description">Интернет-магазин строительных материалов 
+					и инструментов для ремонта</p>
 			</div>
 
 
@@ -121,27 +122,23 @@
 
 
 				<div class="slider">
-					<div class="slider_titles slider_titles_drel">
-						<h2 class="slider_title">Дрели</h2>
-						<span class="slider_text">Соседям на радость!</span>
+					<div class="indicator">
+						<button type="button" class="indicator-btn"></button>
+						<button type="button" class="indicator-btn active"></button>
 					</div>
-
-
-					<div class="slider_titles slider_titles_perforator" hidden="">
-						<h2 class="slider_title">Перфораторы</h2>
-						<span class="slider_text">Настоящие мужские игрушки</span>
+					<div class="slider-arrows">
+						<button type="button" class="left-arrow"></button>
+						<button type="button" class="right-arrow"></button>
 					</div>
-
-
-					<div class="slider_images">
-						<img alt="" src="img/slide1.jpg" width="620" height="266">
-						<img alt="" hidden="" src="img/slide2.jpg" width="620" height="266">
-						<button class="slider_btn slider_prev"></button> <button class="slider_btn slider_next"></button> <a class="link_to_catalog" href="catalog.html">Открыть каталог</a>
+					<div class="first-slide slide">
+						<h2>Дрели</h2>
+						<p>Соседям на радость!</p>
+						<a class="slider-button" href="catalog.html">Открыть каталог</a>
 					</div>
-
-
-					<div class="slider_toggle_block">
-						<button class="slider_toggle"></button> <button class="slider_toggle slider_toggle_current"></button>
+					<div class="second-slide slide">
+						<h2>Перфораторы</h2>
+						<p>Настоящие мужские игрушки</p>
+						<a class="slider-button" href="catalog.html">Открыть каталог</a>
 					</div>
 				</div>
 			</div>
@@ -525,26 +522,19 @@
 		<div class="modal_writeus">
 			<button class="modal_close"></button>
 
-			<form action="https://echo.htmlacademy.ru">
+			<form action="https://echo.htmlacademy.ru" method="GET" class="writeus_form">
 				<div class="modal_inputs">
 					<div class="window_writeus_input input_name">
 						<label for="popup-name">Ваше имя:</label> <input id="popup-name" name="popup-name" placeholder="Имя Фамилия" type="text">
 					</div>
-
-
 					<div class="window_writeus_input input_email">
 						<label for="popup-email">Ваш e-mail:</label> <input id="popup-email" name="popup-email" placeholder="email@example.com" type="email">
 					</div>
 				</div>
-
-
 				<div class="window_writeus_input input_text">
-					<label for="comment">Текст письма:</label> 
-
+					<label for="comment">Текст письма:</label>
 					<textarea cols="80" id="comment" name="comment" placeholder="В свободной форме" rows="8"></textarea>
 				</div>
-
-
 				<div class="modal_submit">
 					<button class="writeus_submit" type="submit">Отправить</button>
 				</div>
