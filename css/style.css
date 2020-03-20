@@ -128,7 +128,7 @@ img {
 	color: #fff;
 	text-decoration: none;
 	margin: 0;
-	padding: 13px 4px 12px;
+	padding: 12px 19px 12px;
 	font-size: 17px;
 	line-height: 18px;
 }
@@ -136,7 +136,7 @@ img {
 /* Декоративные элементы top_bar */
 
 .top_item__mark {
-	padding-left: 27px;
+	padding-left: 35px;
 }
 
 .top_item__mark::before {
@@ -151,7 +151,7 @@ img {
 }
 
 .top_item__cart {
-	padding-left: 34px;
+	padding-left: 41px;
 }
 
 
@@ -200,6 +200,7 @@ img {
 	text-decoration: none;
 	color: #fff;
 	background-color: #63a63e;
+	padding-left: 17px;
 }
 
 .order_btn:hover {
@@ -216,8 +217,8 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-top: 46px;
-	margin-bottom: 40px;
+	margin-top: 45px;
+	margin-bottom: 39px;
 }
 
 .header_description {
@@ -257,7 +258,7 @@ img {
 	border: 3px solid #fff;
 	padding: 0;
 	padding-left: 81px;
-	padding-bottom: 11px;
+	padding-bottom: 12px;
 	text-decoration: none;
 }
 
@@ -286,8 +287,9 @@ img {
 }
 
 .top_tel_index {
-padding-bottom: 12px;
-padding-left: 66px;
+	padding-bottom: 12px;
+	padding-left: 67px;
+	padding-top: 0px;
 }
 
 .top_tel_index::before {
@@ -302,7 +304,7 @@ padding-left: 66px;
 }
 
 .top_adress_index {
-	padding-left: 5px;
+	padding-left: 6px;
 }
 
 /* блок авторизации */
@@ -390,7 +392,7 @@ padding-left: 66px;
 	text-decoration: none;
 	color: #fff;
 	text-align: center;
-	padding: 19px 30px;
+	padding: 19px 31px;
 }
 
 .nav_item:hover {
@@ -415,12 +417,12 @@ padding-left: 66px;
 .main_container {
 	width: 940px;
 	margin: 0 auto;
-	margin-bottom: 65px;
+	margin-bottom: 67px;
 }
 
 .goods {
 	display: flex;
-	margin-bottom: 51px;
+	margin-bottom: 54px;
 }
 
 /* /////////////////// */
@@ -853,7 +855,7 @@ padding-left: 66px;
 	display: inline-block;
 	float: left;
 	width: 940px;
-	height: 289px;
+	min-height: 289px;
 	margin: 0 auto;
 }
 
@@ -963,20 +965,20 @@ p.additional_text {
 
 .delivery {
 	background-image: url("../img/car.png");
-	background-position: 100% 122%;
+	background-position: 229px 29px;
 	background-repeat: no-repeat;
 }
 
 .garantia {
 	background-image: url("../img/garantia.jpg");
-	background-position: 100% 25%;
+	background-position: 309px 29px;
 	background-repeat: no-repeat;
 }
 
 
 .credit {
 	background-image: url("../img/credit.jpg");
-	background-position: 100% 28%;
+	background-position: 231px 19px;
 	background-repeat: no-repeat;
 }
 
@@ -1088,7 +1090,7 @@ p.additional_text {
 	justify-content: space-between;
 	padding: 0;
 	margin: 0;
-	padding: 22px 0 34px 36px;
+	padding: 22px 0 35px 36px;
 }
 
 .about_logistic li {
@@ -1106,7 +1108,7 @@ p.additional_text {
 	width: 25px;
 	height: 2px;
 	background-color: #ee3643;
-	left: -30px;
+	left: -36px;
 	top: 9px;
 }
 
@@ -1124,7 +1126,7 @@ p.additional_text {
 
 .about_btn {
 	display: block;
-	padding: 12px 36px 10px 36px;
+	padding: 10px 34px 10px 35px;
 	width: 220px;
 }
 
@@ -1148,15 +1150,15 @@ p.additional_text {
 }
 
 .footer_top_row1 {
-	min-height: 68px;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 29px;
+	align-items: flex-start;
+	margin-bottom: 33px;
 }
 
 .logo_footer {
 	width: 220px;
-	min-height: 68px;
+	min-height: 63px;
 	display: block;
 	background-color: #ee3643;
 	color: #fff;
@@ -1167,7 +1169,6 @@ p.additional_text {
 }
 
 .footer_menu_top {
-	min-height: 68px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -1175,12 +1176,12 @@ p.additional_text {
 	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
-	padding-top: 33px;
+	padding-top: 38px;
 }
 
 .footer_menu_top li {
 	padding: 0;
-	padding-right: 60px;
+	padding-right: 59px;
 }
 
 .footer_menu_top li:last-child {
@@ -1198,7 +1199,7 @@ p.additional_text {
 	display: flex;
 	justify-content: space-between;
 	min-height: 50px;
-	margin-bottom: 45px;
+	margin-bottom: 46px;
 }
 
 .footer_top_address {
@@ -1227,7 +1228,7 @@ p.additional_text {
 }
 
 .footer_menu_bottom li {
-	margin-right: 60px;
+	margin-right: 59px;
 }
 
 .footer_menu_bottom a {
@@ -1263,14 +1264,14 @@ p.additional_text {
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-bottom: 28px;
 }
 
 .footer_rights {
 	display: block;
 	width: 240px;
 	color: #fff;
-	margin-right: 95px;
+	margin-right: 97px;
 }
 
 .footer_social {
@@ -1384,14 +1385,14 @@ margin-right: 65px;
 	display: flex;
 	align-items: center;
 	padding-top: 12px;
-	padding-bottom: 6px;
+	padding-bottom: 7px;
 }
 
 .user_name {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	margin-left: 48px;
+	margin-left: 47px;
 	margin-right: 36px;
 	position: relative;
 	color: #000;
@@ -1959,7 +1960,7 @@ margin-right: 0;
 .product_item_price {
 	position: relative;
 	width: 141px;
-	margin: 7px 40px;
+	margin: 7px 41px;
 	padding: 11px 30px;
 	color: white;
 	background: #ee3643;
