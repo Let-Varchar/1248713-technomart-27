@@ -277,8 +277,9 @@ img {
 	padding: 0;
 	padding-left: 71px;
 	padding-top: 10px;
-	padding-bottom: 12px;
+	padding-bottom: 10px;
 	text-decoration: none;
+	margin-bottom: 2px;
 }
 
 .top_tel::before {
@@ -313,7 +314,6 @@ img {
 	        justify-content: center;
 	position: relative;
 	width: 300px;
-	padding-left: 30px;
 }
 
 .enter::before {
@@ -335,17 +335,20 @@ img {
 	text-decoration: none;
 	text-align: center;
 	background-color: #fff;
-	padding-top: 12px;
-	padding-bottom: 3px;
+	padding-top: 13px;
+	padding-bottom: 12px;
 }
 
 .sign-up {
 	width: 150px;
 	text-align: center;
+	padding-left: 18px;
 }
 
 .enter {
 	width: 121px;
+	padding-left: 39px;
+	margin-right: 10px;
 }
 
 .enter:hover, .sign-up:hover {
