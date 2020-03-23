@@ -37,6 +37,7 @@ img {
 
 .top_bar_wrap {
 	background-color: #293449;
+	margin-bottom: 46px;
 }
 
 .top_bar {
@@ -222,15 +223,15 @@ img {
 	        justify-content: space-between;
 	-webkit-box-align: start;
 	    -ms-flex-align: start;
-	        align-items: flex-start;
-	margin-top: 45px;
-	margin-bottom: 39px;
+	align-items: flex-start;
+	margin-bottom: 40px;
 }
 
 .header_description {
 	width: 198px;
-	margin-left: 51px;
+	padding-left: 52px;
 	padding-top: 4px;
+	width: 300px;
 }
 
 .description {
@@ -253,9 +254,9 @@ img {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-
+	width: 300px;
 	position: relative;
-	padding-top: 12px;
+
 }
 
 .top_tel {
@@ -274,7 +275,8 @@ img {
 	color: #ee3643;
 	border: 3px solid #fff;
 	padding: 0;
-	padding-left: 81px;
+	padding-left: 71px;
+	padding-top: 10px;
 	padding-bottom: 12px;
 	text-decoration: none;
 }
@@ -286,8 +288,8 @@ img {
 	width: 19px;
 	height: 19px;
 	color: #f4f7f9;
-	left: 25px;
-	top: 15px;
+	left: 15px;
+	top: 13px;
 }
 
 .top_adress {
@@ -296,33 +298,9 @@ img {
 	color: #32425c;
 	padding: 0;
 	margin: 0;
-	padding-left: 21px;
+	padding-left: 10px;
 }
 
-.header_contacts_index {
-	padding-top: 10px;
-}
-
-.top_tel_index {
-	padding-bottom: 12px;
-	padding-left: 67px;
-	padding-top: 0px;
-}
-
-.top_tel_index::before {
-	content: "";
-	position: absolute;
-	background: url(../img/icon-phone.svg) no-repeat;
-	width: 19px;
-	height: 19px;
-	color: #f4f7f9;
-	left: 13px;
-	top: 13px;
-}
-
-.top_adress_index {
-	padding-left: 6px;
-}
 
 /* блок авторизации */
 
@@ -334,6 +312,8 @@ img {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	position: relative;
+	width: 300px;
+	padding-left: 30px;
 }
 
 .enter::before {
@@ -342,7 +322,8 @@ img {
 	background-image: url(/img/icon-login.svg);
 	width: 20px;
 	height: 17px;
-	left: 5px;
+	left: 32px;
+	top: 14px;
 	opacity: 0.5;
 }
 
@@ -1524,7 +1505,7 @@ margin-right: 65px;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	padding-top: 12px;
+	padding-top: 11px;
 	padding-bottom: 7px;
 }
 
