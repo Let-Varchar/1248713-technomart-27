@@ -309,9 +309,9 @@ img {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-webkit-box-pack: flex-end;
+	    -ms-flex-pack: flex-end;
+	        justify-content: flex-end;
 	position: relative;
 	width: 300px;
 }
@@ -342,12 +342,11 @@ img {
 .sign-up {
 	width: 150px;
 	text-align: center;
-	padding-left: 18px;
 }
 
 .enter {
 	width: 121px;
-	padding-left: 39px;
+	padding-left: 21px;
 	margin-right: 10px;
 }
 
